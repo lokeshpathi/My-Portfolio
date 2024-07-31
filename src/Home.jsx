@@ -240,7 +240,7 @@ function Home() {
                 <a href="https://www.linkedin.com/in/lokesh-pathi-31094b229/"
                 target='_blank'
                 >
-                    <img src={linkedin} className='w-[40px]'/>
+                    <img src={linkedin} className='w-[45px]'/>
                 </a>
                 <a href="https://github.com/lokeshpathi" target='_blank'><img src={github} className='w-[60px]'/></a>
                 <a href="https://www.instagram.com/_black_beard__7/" target='_blank'><img src={instagram} className='w-[45px]'/></a>
