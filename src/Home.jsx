@@ -136,7 +136,7 @@ function Home() {
                     <div  className={ans}>The Netflix Clone project is a static web page that replicates the user interface of the popular streaming service, Netflix. Built solely with HTML and CSS, this project was an essential part of my learning journey, providing a hands-on experience that deepened my understanding of web development fundamentals.
                         
                     </div>
-                    <a href="#" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
+                    <a href="https://github.com/lokeshpathi/Netflix-UI-clone-using-HTML-and-CSS" target='_blank' className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
                     </div>
                     
                 </details>
@@ -146,14 +146,14 @@ function Home() {
                     <div className={ans}>
                     The Food Delivery App is a frontend application built with React and Tailwind CSS. Designed to provide a seamless user experience, this app allows users to browse food items, add items to their cart, adjust quantities, and remove items as needed. Utilizing the Context API for state management, the app ensures efficient and reactive data handling.
                     </div>
-                    <a href="#" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
+                    <a href="https://github.com/lokeshpathi/food-delivery-app" target='_blank' className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
                     </div>
                 </details>
                 <details  className='mt-[20px]'>
                     <summary className={faq}>Disney clone with React</summary>
                     <div>
                     <div className={ans}>The Disney Clone is a React-based web application that replicates the user interface of the popular Disney streaming service. By leveraging the TMDB (The Movie Database) API, this project showcases how to integrate external APIs into a React application efficiently.</div>
-                    <a href="#" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
+                    <a href="https://github.com/lokeshpathi/Disney-clone-React-app" target='_blank' className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
                     </div>
                 </details>             
                 <details  className='mt-[20px]'>
@@ -162,21 +162,21 @@ function Home() {
                     <div className={ans}>
                     The Blog App is a full stack web application built using the MERN stack (MongoDB, Express, React, Node.js). This project was instrumental in helping me understand the complete lifecycle of web application development, from creating the frontend and backend to integrating with a database and deploying the application.
                     </div>
-                    <a href="#" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
+                    <a href="https://github.com/lokeshpathi/Blog-MERN" target='_blank' className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
                     </div>
                 </details>
                 <details  className='mt-[20px]'>
                     <summary className={faq}>Airbnb Clone with MERN</summary>
                    <div>
                    <div className={ans}>The Airbnb Clone is a full stack web application built using the MERN stack (MongoDB, Express, React, Node.js). This project replicates the core functionalities of the Airbnb platform, allowing users to create listings, book places, and manage their bookings. It focuses on implementing essential CRUD operations, providing a streamlined version of the original Airbnb service.</div>
-                   <a href="#" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
+                   <a href="https://github.com/lokeshpathi/Airbnb-Clone" target='_blank' className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
                    </div>
                 </details>
                 <details  className='mt-[20px]'>
                     <summary className={faq}>MovieManiacs App WITH MERN</summary>
                     <div>
                     <div className={ans}>MovieManiacs is a movie recommendation web application built using the MERN stack (MongoDB, Express, React, Node.js). The application categorizes movies by regions and genres, providing users with a seamless browsing experience through a left-side navigation bar. Users can explore top movies, view detailed information, and engage with the content by liking, favoriting, and adding movies to their watchlist.</div>
-                    <a href="#" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
+                    <a href="https://github.com/lokeshpathi/Movie-DiscoveryApp" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
                     </div>
                 </details>
                 
@@ -184,7 +184,15 @@ function Home() {
                     <summary className={faq}>Amazon Clone with react & firebase</summary>
                    <div>
                    <div className={ans}>The Amazon Clone is a web application that replicates key functionalities of the popular e-commerce platform, Amazon. This project is built using React for the frontend and Firebase for the backend. It was a pivotal project for me, providing hands-on experience with Firebase and demonstrating how it simplifies backend tasks for frontend development.</div>
-                   <a href="#" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
+                   <a href="https://github.com/lokeshpathi/Amazon-clone" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
+                   </div>
+                </details>
+
+                <details  className='mt-[20px]'>
+                    <summary className={faq}>Personal Portfolio website using react</summary>
+                   <div>
+                   <div className={ans}>A personal portfolio website built with React to showcase projects, skills, and experience. The website features a clean, modern design and provides visitors with an overview of the developer's work, including project descriptions, technology stacks, and links to code repositories.</div>
+                   <a href="https://github.com/lokeshpathi/My-Portfolio/" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
                    </div>
                 </details>
             </div>
@@ -232,7 +240,7 @@ function Home() {
                 <a href="https://www.linkedin.com/in/lokesh-pathi-31094b229/"
                 target='_blank'
                 >
-                    <img src={linkedin} className='w-[65px]'/>
+                    <img src={linkedin} className='w-[40px]'/>
                 </a>
                 <a href="https://github.com/lokeshpathi" target='_blank'><img src={github} className='w-[60px]'/></a>
                 <a href="https://www.instagram.com/_black_beard__7/" target='_blank'><img src={instagram} className='w-[45px]'/></a>
