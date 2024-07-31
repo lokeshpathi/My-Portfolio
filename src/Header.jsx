@@ -4,7 +4,7 @@ import logo from '/logo.png'
 function Header() {
   const [menuItem,setMenuItem] = useState('home');
   return (
-    <div id="home" className='flex items-center justify-center gap-2 md:justify-between w-full h-[80px]'>
+    <div id="home" className='flex items-center justify-center gap-2 md:justify-between w-full h-[60px] md:h-[80px]'>
         <div className='h-full'>
             <img src={logo} alt="logo" className=' bg-transparent h-full ' />
         </div>
