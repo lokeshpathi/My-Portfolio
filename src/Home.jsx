@@ -224,18 +224,18 @@ function Home() {
            </div>
         </section>
 
-        <section id='contact' className='flex flex-col justify-center mt-[70px] shadow-md px-5 py-3'>
+        <section id='contact' className='flex flex-col justify-center mt-[100px] shadow-md px-5 py-3'>
         <h1 className='text-4xl md:text-7xl text-white font-serif'>Contact</h1>
         <div>
             <div className={faq}>Hello, Contact me using one these </div>
             <div className='flex items-center justify-center gap-5'>              
-                <a href="">
+                <a href="https://www.linkedin.com/in/lokesh-pathi-31094b229/">
                     <img src={linkedin} className='w-[65px]'/>
                 </a>
-                <a href="#"><img src={github} className='w-[80px]'/></a>
-                <a href="#"><img src={instagram} className='w-[65px]'/></a>
-                <a href="#"><img src={mail} className='w-[80px]'/></a>
-                <a href="#"><img src={replit} className='w-[60px]'/></a>
+                <a href="https://github.com/lokeshpathi"><img src={github} className='w-[60px]'/></a>
+                <a href="https://www.instagram.com/_black_beard__7/"><img src={instagram} className='w-[45px]'/></a>
+                <a href="mailto:lokeshpathi39@gmail.com"><img src={mail} className='w-[60px]'/></a>
+                <a href="https://replit.com/@lokeshpathi39"><img src={replit} className='w-[40px]'/></a>
             </div>
             <div className='mt-[10px]  text-gray-400 text-center'><p>Made <i class="fa fa-heart-o"></i> in india</p></div>
             <div className='text-center text-gray-400'><i class="fa-regular fa-copyright"></i>copyright 2024 Pathi Lokesh</div>
