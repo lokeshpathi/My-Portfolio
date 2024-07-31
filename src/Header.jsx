@@ -10,7 +10,7 @@ function Header() {
         </div>
         <nav className='flex items-center md:gap-[20px] gap-[2px] text-xl md:text-2xl'>
             <a 
-            href="#home" 
+            href="#" 
             onClick={()=>setMenuItem('home')}
             className={menuItem=="home"?"text-white hidden md:block":"text-gray-500 hidden md:block"}
             >Home</a>
