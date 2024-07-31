@@ -173,7 +173,7 @@ function Home() {
                    </div>
                 </details>
                 <details  className='mt-[20px]'>
-                    <summary className={faq}>MovieManiacs App WITH MERN</summary>
+                    <summary className={faq}>MovieManiacs App with MERN</summary>
                     <div>
                     <div className={ans}>MovieManiacs is a movie recommendation web application built using the MERN stack (MongoDB, Express, React, Node.js). The application categorizes movies by regions and genres, providing users with a seamless browsing experience through a left-side navigation bar. Users can explore top movies, view detailed information, and engage with the content by liking, favoriting, and adding movies to their watchlist.</div>
                     <a href="https://github.com/lokeshpathi/Movie-DiscoveryApp" target="_blank" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
@@ -189,7 +189,7 @@ function Home() {
                 </details>
 
                 <details  className='mt-[20px]'>
-                    <summary className={faq}>Personal Portfolio website using react</summary>
+                    <summary className={faq}>Personal Portfolio website using React</summary>
                    <div>
                    <div className={ans}>A personal portfolio website built with React to showcase projects, skills, and experience. The website features a clean, modern design and provides visitors with an overview of the developer's work, including project descriptions, technology stacks, and links to code repositories.</div>
                    <a href="https://github.com/lokeshpathi/My-Portfolio/" target="_blank" className='inline-block px-4 py-2 rounded-md text-gray-700 bg-yellow-300 mx-2 my-2'>GitHub Link</a>
