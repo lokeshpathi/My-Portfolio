@@ -8,7 +8,7 @@ function Header() {
         <div className='h-full'>
             <img src={logo} alt="logo" className=' bg-transparent h-full ' />
         </div>
-        <nav className='flex items-center gap-[2px] text-xl md:text-2xl'>
+        <nav className='flex items-center md:gap-[20px] gap-[2px] text-xl md:text-2xl'>
             <a 
             href="#home" 
             onClick={()=>setMenuItem('home')}
