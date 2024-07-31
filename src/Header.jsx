@@ -8,7 +8,7 @@ function Header() {
         <div className='h-full'>
             <img src={logo} alt="logo" className=' bg-transparent h-full ' />
         </div>
-        <nav className='flex items-center gap-[20px] text-2xl'>
+        <nav className='flex items-center gap-[20px] text-xl md:text-2xl'>
             <a 
             href="#home" 
             onClick={()=>setMenuItem('home')}
@@ -24,7 +24,7 @@ function Header() {
             <a 
             href='#skills' 
             onClick={()=>setMenuItem('skills')}
-            className={menuItem=="skills"?"text-white hidden md:block":"text-gray-500 hidden md:block"}
+            className={menuItem=="skills"?"text-white":"text-gray-500 hidden md:block"}
             >Skills</a>
 
             <a
@@ -42,7 +42,7 @@ function Header() {
             <a
             href='#contact' 
             onClick={()=>setMenuItem('contact')}
-            className={menuItem=="contact"?"text-white hidden md:block":"text-gray-500 hidden md:block"}
+            className={menuItem=="contact"?"text-white":"text-gray-500 hidden md:block"}
             >Contact</a>
 
         </nav>
