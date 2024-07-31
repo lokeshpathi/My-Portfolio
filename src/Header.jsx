@@ -4,11 +4,11 @@ import logo from '/logo.png'
 function Header() {
   const [menuItem,setMenuItem] = useState('home');
   return (
-    <div id="home" className='flex items-center gap-[1px] md:justify-between md:gap-0 w-full h-[60px] md:h-[80px]'>
+    <div id="home" className='flex items-center justify-between w-full h-[60px] md:h-[80px]'>
         <div className='h-full'>
             <img src={logo} alt="logo" className=' bg-transparent h-full ' />
         </div>
-        <nav className='flex items-center gap-[20px] text-xl md:text-2xl'>
+        <nav className='flex items-center gap-[8px] text-xl md:text-2xl'>
             <a 
             href="#home" 
             onClick={()=>setMenuItem('home')}
