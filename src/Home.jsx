@@ -235,7 +235,7 @@ function Home() {
         <section id='contact' className='flex flex-col justify-center mt-[100px] shadow-md px-5 py-3'>
         <h1 className='text-4xl md:text-7xl text-white font-serif'>Contact</h1>
         <div>
-            <div className={faq}>Hello, Contact me using one these </div>
+            <div className={faq}>Hello, Contact/Follow :</div>
             <div className='flex items-center justify-center gap-5'>              
                 <a href="https://www.linkedin.com/in/lokesh-pathi-31094b229/"
                 target='_blank'
