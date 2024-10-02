@@ -7,8 +7,8 @@
 
 body{
   background-color: rgba(0, 0, 0, 0.805);
-
 }
+
 
 *{
   box-sizing: border-box;
@@ -18,4 +18,3 @@ body{
   font-family: Outfit;
   scroll-behavior: smooth;
 }
-

@@ -81,7 +81,7 @@ function Home() {
         }
     ]
   return (
-    <div className='w-full'>
+    <div className='mt-9 w-full'>
         <section id="home" className='flex flex-col-reverse md:flex-row justify-between items-center px-[30px] shadow-md py-[20px] w-full gap-[20px]'>
                 <div className='flex items-center text-4xl text-white flex-col'>
                 <div className='flex items-center '>
@@ -100,7 +100,7 @@ function Home() {
                 </div>
         </section>
 
-        <section id="about" className='mt-[70px]'>
+        <section id="about" className='pt-[80px]'>
              <h1 className='text-4xl md:text-7xl text-white font-serif'>About</h1>
              <div className='flex justify-center gap-[10px] text-xl md:text-2xl text-white font-sans mt-[25px] text-justify'>
                 <div className='hidden md:block w-[500px] h-[3px] mt-[14px] bg-yellow-300'></div>
@@ -114,7 +114,7 @@ function Home() {
              </div>
         </section>
 
-        <section id="skills" className='flex flex-col justify-center items-center mt-[70px]'>
+        <section id="skills" className='flex flex-col justify-center items-center pt-[80px]'>
             <h1 className='text-7xl text-white font-serif'>Skills</h1>
             <div className='flex justify-center flex-wrap items-center gap-[30px] text-2xl mt-[25px]'>
                {
@@ -125,7 +125,7 @@ function Home() {
             </div>
         </section>
 
-        <section id='projects' className='flex flex-col justify-center mt-[70px] shadow-md px-5 py-5'>
+        <section id='projects' className='flex flex-col justify-center pt-[80px] shadow-md px-5 py-5'>
             <h1 className='text-7xl text-white font-serif'>
                 Projects
             </h1>
@@ -198,7 +198,7 @@ function Home() {
             </div>
         </section>
 
-        <section id="certifications" className='flex flex-col justify-center mt-[70px] shadow-md px-5 py-3'>
+        <section id="certifications" className='flex flex-col justify-center pt-[80px] shadow-md px-5 py-3'>
            <h1 className='text-4xl md:text-7xl text-white font-serif'>Certifications</h1>
            <div className='mt-[30px]'>
               <div className={faq}>
